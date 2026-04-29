@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6, mt: 'auto' }}>
+    <Box component="footer" sx={{ bgcolor: 'background.paper', py: { xs: 4, md: 6 }, mt: 'auto' }}>
       <Container maxWidth="lg">
         <Grid container spacing={4} sx={{ justifyContent: 'space-between' }}>
           <Grid size={{ xs: 12, md: 4 }}>

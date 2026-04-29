@@ -32,7 +32,7 @@ const Navbar = () => {
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ justifyContent: 'space-between' }}>
             <Box component={RouterLink} to="/" sx={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-              <img src={logo} alt="Mythy Logo" style={{ height: '40px', marginRight: '10px', borderRadius:"10000px" }} />
+              <img src={logo} alt="Mythy Logo" style={{ height: '32px', marginRight: '8px', borderRadius:"10000px" }} />
               <Typography
                 variant="h6"
                 noWrap
@@ -40,6 +40,7 @@ const Navbar = () => {
                   fontWeight: 700,
                   color: 'primary.main',
                   letterSpacing: '.1rem',
+                  fontSize: { xs: '1.1rem', md: '1.25rem' }
                 }}
               >
                 MYTHY

@@ -33,16 +33,16 @@ const ContactUs = () => {
   };
 
   return (
-    <Box sx={{ py: 15, bgcolor: 'background.default' }}>
+    <Box sx={{ py: { xs: 8, md: 15 }, bgcolor: 'background.default' }}>
       <Container maxWidth="md">
-        <Typography variant="h2" align="center" gutterBottom sx={{ mb: 4, fontWeight: 700 }}>
+        <Typography variant="h2" align="center" gutterBottom sx={{ mb: { xs: 2, md: 4 }, fontWeight: 700 }}>
           Get in <span style={{ color: '#FFD54F' }}>Touch</span>
         </Typography>
-        <Typography variant="body1" align="center" color="text.secondary" sx={{ mb: 8, maxWidth: '600px', mx: 'auto' }}>
+        <Typography variant="body1" align="center" color="text.secondary" sx={{ mb: { xs: 4, md: 8 }, maxWidth: '600px', mx: 'auto' }}>
           Have questions or feedback? We'd love to hear from you. Reach out to us through the form below or via our contact details.
         </Typography>
 
-        <Stack spacing={8}>
+        <Stack spacing={4}>
           {/* Contact Information Cards */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -89,7 +89,7 @@ const ContactUs = () => {
                       variant="outlined"
                       sx={{
                         '& .MuiOutlinedInput-root': {
-                          height: '60px',
+                          height: { xs: '50px', md: '60px' },
                           '& fieldset': { borderColor: 'rgba(255, 255, 255, 0.2)', borderRadius: 3 },
                           '&:hover fieldset': { borderColor: '#FFD54F' },
                         }
@@ -106,7 +106,7 @@ const ContactUs = () => {
                       variant="outlined"
                       sx={{
                         '& .MuiOutlinedInput-root': {
-                          height: '60px',
+                          height: { xs: '50px', md: '60px' },
                           '& fieldset': { borderColor: 'rgba(255, 255, 255, 0.2)', borderRadius: 3 },
                           '&:hover fieldset': { borderColor: '#FFD54F' },
                         }
@@ -122,7 +122,7 @@ const ContactUs = () => {
                       variant="outlined"
                       sx={{
                         '& .MuiOutlinedInput-root': {
-                          height: '60px',
+                          height: { xs: '50px', md: '60px' },
                           '& fieldset': { borderColor: 'rgba(255, 255, 255, 0.2)', borderRadius: 3 },
                           '&:hover fieldset': { borderColor: '#FFD54F' },
                         }
@@ -152,8 +152,8 @@ const ContactUs = () => {
                       type="submit"
                       disabled={contactMutation.isPending}
                       sx={{ 
-                        py: 2.5, 
-                        fontSize: '1.2rem',
+                        py: { xs: 1.5, md: 2.5 }, 
+                        fontSize: { xs: '1rem', md: '1.2rem' },
                         fontWeight: 700,
                         borderRadius: 3,
                         boxShadow: '0 10px 20px -10px rgba(255, 213, 79, 0.5)',

@@ -2,7 +2,7 @@ import { Container, Typography, Box, Paper, Divider } from '@mui/material';
 
 const PrivacyPolicy = () => {
   return (
-    <Box sx={{ py: 15, bgcolor: 'background.default' }}>
+    <Box sx={{ py: { xs: 8, md: 15 }, bgcolor: 'background.default' }}>
       <Container maxWidth="md">
         <Paper sx={{ p: { xs: 3, md: 6 }, borderRadius: 4, bgcolor: 'background.paper' }}>
           <Typography variant="h2" gutterBottom color="primary">
