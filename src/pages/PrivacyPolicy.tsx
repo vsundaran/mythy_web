@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <Box sx={{ py: { xs: 8, md: 15 }, bgcolor: 'background.default' }}>
       <Container maxWidth="md">
-        <Paper sx={{ p: { xs: 3, md: 6 }, borderRadius: 4, bgcolor: 'background.paper' }}>
+        <Paper sx={{ p: { xs: 3, md: 6 }, borderRadius: 1, bgcolor: 'background.paper' }}>
           <Typography variant="h2" gutterBottom color="primary">
             Privacy Policy
           </Typography>
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
             1. Introduction
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            Welcome to Mythy.ai. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us.
+            Welcome to Mythy.dev. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us.
           </Typography>
 
           <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, mt: 4 }}>
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
             6. Contact Us
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            If you have questions or comments about this policy, you may email us at support@mythy.ai.
+            If you have questions or comments about this policy, you may email us at contact@mythy.dev.
           </Typography>
         </Paper>
       </Container>

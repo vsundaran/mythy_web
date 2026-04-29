@@ -46,7 +46,7 @@ const Footer = () => {
         <Typography variant="body2" color="text.secondary" align="center">
           {'Copyright © '}
           <Link color="inherit" href="/">
-            Mythy.ai
+            Mythy.dev
           </Link>{' '}
           {new Date().getFullYear()}
           {'. All rights reserved.'}

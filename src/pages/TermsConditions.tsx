@@ -4,21 +4,21 @@ const TermsConditions = () => {
   return (
     <Box sx={{ py: { xs: 8, md: 15 }, bgcolor: 'background.default' }}>
       <Container maxWidth="md">
-        <Paper sx={{ p: { xs: 3, md: 6 }, borderRadius: 4, bgcolor: 'background.paper' }}>
+        <Paper sx={{ p: { xs: 3, md: 6 }, borderRadius: 1, bgcolor: 'background.paper' }}>
           <Typography variant="h2" gutterBottom color="primary">
             Terms & Conditions
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
             Last Updated: April 27, 2026
           </Typography>
-          
+
           <Divider sx={{ mb: 4 }} />
 
           <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
             1. Agreement to Terms
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Mythy.ai (“we,” “us” or “our”), concerning your access to and use of the Mythy application.
+            These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Mythy.dev (“we,” “us” or “our”), concerning your access to and use of the Mythy application.
           </Typography>
 
           <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, mt: 4 }}>
@@ -53,7 +53,7 @@ const TermsConditions = () => {
             6. Contact Us
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            In order to resolve a complaint regarding the App or to receive further information regarding use of the App, please contact us at support@mythy.ai.
+            In order to resolve a complaint regarding the App or to receive further information regarding use of the App, please contact us at contact@mythy.dev.
           </Typography>
         </Paper>
       </Container>
