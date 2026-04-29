@@ -11,7 +11,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <img src={logo} alt="Mythy Logo" style={{ height: '30px', marginRight: '10px', borderRadius:"10000px" }} />
               <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>
-                MYTHY
+                Mythy
               </Typography>
             </Box>
             <Typography variant="body2" color="text.secondary">
