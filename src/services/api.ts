@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useQuery, useMutation } from '@tanstack/react-query';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://asp-mythy-api-prod-uaen.azurewebsites.net' ||  'http://localhost:5001/api/v1';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

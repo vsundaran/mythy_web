@@ -39,6 +39,9 @@ const Footer = () => {
               <Link component={RouterLink} to="/terms-conditions" variant="body2" color="text.secondary" underline="hover">
                 Terms & Conditions
               </Link>
+              <Link component={RouterLink} to="/delete-account" variant="body2" color="text.secondary" underline="hover">
+                Delete Account
+              </Link>
             </Box>
           </Grid>
         </Grid>
